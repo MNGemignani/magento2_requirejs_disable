@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="dev">
+            <group id="general_requirejs" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>RequireJs Configuration</label>
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable RequireJs Module Disabling </label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="moduleselection" translate="label" type="multiselect" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Select the modules to disable it whole requirejs-config.js</label>
+                    <source_model>Gemig\Requirejs\Model\Config\Source\ConfigOption</source_model>
+                    <comment>Attention! Proceed with care, this can have several effects on your system, just use if you now what you are doing.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
