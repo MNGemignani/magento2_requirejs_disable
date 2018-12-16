@@ -8,7 +8,7 @@
     "AFL-3.0"
   ],
   "require": {
-    "magento/framework": "~100.0.4"
+     "magento/framework": ">=100.1.0,<=100.1.16|>=101.0.0,<=101.0.7"
   },
   "autoload": {
     "files": [

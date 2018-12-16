@@ -14,7 +14,7 @@
    
    Just run from your magento2 root directory (or clone this repo to `app/code/Gemig/Requirejs`):
     
-    composer require gemig/requirejs
+    composer require "gemig/requirejs dev-master"
   
     bin/magento module:enable Gemig_Requirejs
     
