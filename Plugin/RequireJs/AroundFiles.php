@@ -6,10 +6,6 @@ use Magento\Framework\View\Design\ThemeInterface;
 
 class AroundFiles
 {
-    /**
-     * AfterFiles constructor.
-     * @param Data $helper
-     */
     /** @var \Magento\Framework\View\ConfigInterface */
     protected $viewConfig;
 
