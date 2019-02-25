@@ -4,7 +4,7 @@
 
     <type name="Magento\Framework\RequireJs\Config\File\Collector\Aggregated">
         <plugin name="requirejsConfigPlugin"
-                type="Gemig\Requirejs\Plugin\RequireJs\AfterFiles"
+                type="Gemig\Requirejs\Plugin\RequireJs\AroundFiles"
                 sortOrder="100"
         />
     </type>
